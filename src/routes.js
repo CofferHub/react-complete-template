@@ -41,7 +41,7 @@ const Routes = () => (
     <Route path="/detail" component={Detail} />
     <Route path="/styleguide" component={StyleGuide} />
 
-    <Redirect from="*" to="/login" />
+    <Redirect from="*" to="/main" />
   </Switch>
 );
 
