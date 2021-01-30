@@ -3,9 +3,20 @@
   "env": {
     "browser": true,
     "es2020": true,
-    "jest": true
+    "jest": true,
+    "node": true
   },
-  "extends": ["plugin:react/recommended", "airbnb"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:prettier/recommended",
+    "plugin:react/recommended",
+    "airbnb"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
       "jsx": true
@@ -13,17 +24,31 @@
     "ecmaVersion": 11,
     "sourceType": "module"
   },
-  "plugins": ["react", "jsx-a11y", "import", "import-helpers"],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "jsx-a11y",
+    "import",
+    "import-helpers"
+  ],
   "rules": {
     "react/jsx-filename-extension": [
       "error",
       {
-        "extensions": [".js", ".jsx"]
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
       }
     ],
     "global-require": "off",
     "import/prefer-default-export": "off",
-    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "no-unused-expressions": [
+      "error",
+      {
+        "allowTaggedTemplates": true
+      }
+    ],
     "import-helpers/order-imports": [
       "warn",
       {
@@ -31,14 +56,26 @@
         "groups": [
           "/^react/",
           "module",
-          ["parent", "sibling", "index"],
+          [
+            "parent",
+            "sibling",
+            "index"
+          ],
           "/^~/",
           "/^./pages/"
         ],
-        "alphabetize": { "order": "asc", "ignoreCase": true }
+        "alphabetize": {
+          "order": "asc",
+          "ignoreCase": true
+        }
       }
     ],
-    "react/jsx-props-no-spreading": ["error", { "custom": "ignore" }],
+    "react/jsx-props-no-spreading": [
+      "error",
+      {
+        "custom": "ignore"
+      }
+    ],
     "comma-dangle": [
       "error",
       {
