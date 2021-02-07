@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Layout from '../../layout';
 import { Container, Title } from './styles';
+
+import Layout from '~/layout';
 
 const Main = () => (
   <Layout>
