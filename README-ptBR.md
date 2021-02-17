@@ -14,18 +14,18 @@ O projeto visa fornecer um padrão simples com as dependências mais utilizadas 
   - [Commitlint] (https://github.com/conventional-changelog/commitlint)
     - [Commitizen] (https://github.com/commitizen/cz-cli)
     - [Husky] (https://github.com/typicode/husky)
-  - [Componentes estilizados] (https://github.com/styled-components/styled-components)
+  - [styled-components] (https://github.com/styled-components/styled-components)
   - [Datefns] (https://date-fns.org/docs/Getting-Started)
-  - [React app reconectado] (https://github.com/timarney/react-app-rewired)
-    - [importação de raiz do plugin Babel] (https://www.npmjs.com/package/babel-plugin-root-import)
-    - [Custumize cra] (https://github.com/arackaf/customize-cra)
+  - [react-app-rewired] (https://github.com/timarney/react-app-rewired)
+    - [babel-plugin-root-import] (https://www.npmjs.com/package/babel-plugin-root-import)
+    - [Customize cra] (https://github.com/arackaf/customize-cra)
   - [React router dom] (https://reactrouter.com/web/guides/quick-start)
   - [SWR] (https://github.com/vercel/swr)
   - [Axios] (https://github.com/axios/axios)
-  - [Tipos de objetos] (https://github.com/facebook/prop-types)
+  - [Prop Types] (https://github.com/facebook/prop-types)
   - [Eslint] (https://github.com/eslint/eslint)
     - [Eslint import helpers] (https://github.com/Tibfib/eslint-plugin-import-helpers)
-  - [Cor] (https://github.com/Qix-/color)
+  - [Color] (https://github.com/Qix-/color)
 - [Jest] (https://github.com/facebook/jest)
 
 ## Scripts Atuais
@@ -34,27 +34,27 @@ O processo de teste e lint são tarefas automatizadas com husky antes de enviar 
 
 `` `bash
 # Inicie o ambiente de desenvolvimento
-início de fio
+yarn start
 # ou
 npm run start
 
 # Inicie o ambiente do processo de construção
-construção de fios
+yarn build
 #ou
 npm run build
 
 # Inicie o processo javascript lint - com --max-warnings = 0 atributos para nenhum aviso permitido
-fiapos de fios
+yarn lint
 #ou
 npm run lint
 
 # Inicie o processo de teste
-teste de fio
+yarn test
 #ou
 teste de execução npm
 
 # Inicie o processo de teste com atributos de relógio
-teste de fio: relógio
+yarn test:watch
 #ou
 npm run test: watch
 `` `
