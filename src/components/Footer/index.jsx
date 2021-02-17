@@ -6,13 +6,13 @@ function Footer() {
   return (
     <Container>
       <p>
-        Created by{' '}
+        Modified by{' '}
         <a
-          href="https://www.linkedin.com/in/mrlsk8/"
+					href="https://github.com/CofferHub/reactjs-coffer-boilerplate"
           rel="noopener noreferrer"
           target="_blank"
         >
-          Marcelo Lima
+          Coffer Hub
         </a>
       </p>
     </Container>
